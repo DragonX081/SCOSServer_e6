@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+
+    <servlet>
+        <servlet-name>LoginValidator</servlet-name>
+        <servlet-class>esd.scos.servlet.LoginValidator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginValidator</servlet-name>
+        <url-pattern>/LoginValidator</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FoodUpdateService</servlet-name>
+        <servlet-class>esd.scos.servlet.FoodUpdateService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FoodUpdateService</servlet-name>
+        <url-pattern>/FoodUpdateService</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
